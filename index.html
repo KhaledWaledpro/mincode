@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MINCOD | حلول برمجية وذكاء بيانات</title>
+  <meta name="description" content="MINCOD تبني تطبيقات سطح مكتب بايثون، أتمتة، وتحليلات بيانات تساعد الشركات تكسب وقت وفلوس." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Background effects -->
+  <div class="bg">
+    <div class="orb orb-a"></div>
+    <div class="orb orb-b"></div>
+    <div class="grid"></div>
+    <div class="noise"></div>
+  </div>
+
+  <!-- Progress bar -->
+  <div class="progress" id="progress"></div>
+
+  <!-- Navbar -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#home" aria-label="MINCOD home">
+        <span class="brand-dot"></span>
+        <span class="brand-name">MINCOD</span>
+        <span class="brand-tag">Digital Solutions</span>
+      </a>
+
+      <nav class="menu" aria-label="Primary">
+        <a href="#services">الخدمات</a>
+        <a href="#work">الأعمال</a>
+        <a href="#process">الطريقة</a>
+        <a href="#pricing">الباقات</a>
+        <a href="#contact">تواصل</a>
+      </nav>
+
+      <div class="nav-cta">
+        <button class="btn ghost" id="themeBtn" type="button" title="تغيير الوضع">🌙</button>
+        <a class="btn primary" href="#contact">اطلب عرض سعر</a>
+        <button class="burger" id="burger" aria-label="Open menu" type="button">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile" id="mobile">
+      <a href="#services">الخدمات</a>
+      <a href="#work">الأعمال</a>
+      <a href="#process">الطريقة</a>
+      <a href="#pricing">الباقات</a>
+      <a href="#contact">تواصل</a>
+      <a class="btn primary" href="#contact">اطلب عرض سعر</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <div class="pill">
+          <span class="spark"></span>
+          <span>بايثون • تحليل بيانات • Desktop Apps</span>
+        </div>
+
+        <h1>
+          نخلي شركتك أسرع…
+          <span class="grad">وأذكى</span>،
+          وبنتايج ملموسة.
+        </h1>
+
+        <p class="lead">
+          MINCOD تبني تطبيقات سطح مكتب احترافية ببايثون، وتحليلات بيانات تقلل الهدر وتزود الإنتاجية.
+          شغل نظيف، تسليم سريع، وواجهة “شركة عالمية”.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#contact">ابدأ مشروعك الآن</a>
+          <a class="btn ghost" href="#work">شوف شغلنا</a>
+        </div>
+
+        <div class="trust">
+          <div class="trust-item">
+            <div class="trust-num">+30%</div>
+            <div class="trust-text">تحسين كفاءة العمليات</div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-num">7-14</div>
+            <div class="trust-text">يوم تسليم لمشاريع صغيرة</div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-num">A+</div>
+            <div class="trust-text">UI/UX احترافي</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card reveal delay-1">
+        <div class="glass">
+          <div class="glass-top">
+            <div class="dots">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="mini-title">Live Preview</div>
+          </div>
+
+          <div class="dash">
+            <div class="kpi">
+              <div class="kpi-title">Automation Saved</div>
+              <div class="kpi-value" data-counter="128">0</div>
+              <div class="kpi-sub">hours / month</div>
+            </div>
+
+            <div class="chart">
+              <div class="chart-head">
+                <div class="chart-title">Performance</div>
+                <div class="chip">Last 30 days</div>
+              </div>
+              <div class="bars" aria-hidden="true">
+                <span style="--h:42%"></span>
+                <span style="--h:55%"></span>
+                <span style="--h:62%"></span>
+                <span style="--h:49%"></span>
+                <span style="--h:70%"></span>
+                <span style="--h:78%"></span>
+                <span style="--h:86%"></span>
+                <span style="--h:73%"></span>
+              </div>
+            </div>
+
+            <div class="list">
+              <div class="row">
+                <span class="badge ok">✓</span>
+                <div>
+                  <div class="row-title">Desktop App (Python)</div>
+                  <div class="row-sub">واجهة ممتازة + أداء سريع</div>
+                </div>
+              </div>
+              <div class="row">
+                <span class="badge ok">✓</span>
+                <div>
+                  <div class="row-title">Data Analytics</div>
+                  <div class="row-sub">تقارير واضحة + قرارات أسرع</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="glass-cta">
+              <div class="hint">عايز نفس الشكل لمشروعك؟</div>
+              <a class="btn primary w-full" href="#contact">اطلب عرض سعر</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Services -->
+  <section id="services" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>خدمات بتبيع… لأن نتيجتها واضحة</h2>
+        <p>بنركز على اللي يزود الربح/السرعة: أتمتة، تقارير، وبرمجيات ثابتة وسريعة.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card reveal">
+          <div class="icon">🖥️</div>
+          <h3>Desktop Apps</h3>
+          <p>تطبيقات سطح مكتب ببايثون (CustomTkinter) بواجهة راقية وتجربة استخدام ممتازة.</p>
+          <ul>
+            <li>UI/UX احترافي</li>
+            <li>حفظ بيانات محلي/قاعدة بيانات</li>
+            <li>تصدير Excel/CSV وتقارير</li>
+          </ul>
+        </article>
+
+        <article class="card reveal delay-1">
+          <div class="icon">⚙️</div>
+          <h3>FRONT END</h3>
+          <p>عمل موقع فرونت اند باشكال احترافيه وممتازه</p>
+          <ul>
+            <li>LandingPage</li>
+            <li>Portfolios</li>
+            <li>تعديل علي قولب</li>
+          </ul>
+        </article>
+
+        <article class="card reveal delay-2">
+          <div class="icon">📊</div>
+          <h3>Data Analytics</h3>
+          <p>تحليل بيانات وتقارير تساعدك تاخد قرار بسرعة… من غير تعقيد.</p>
+          <ul>
+            <li>Dashboards مبسطة</li>
+            <li>Insights عملية</li>
+            <li>ملفات كبيرة + أداء</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work / Portfolio -->
+  <section id="work" class="section alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>أعمال</h2>
+        <p>احنا هنعملك الحجات دي كلها</p>
+      </div>
+
+      <div class="work-grid">
+        <div class="work-card reveal">
+          <div class="work-top">
+            <div class="work-title">Analysis Tool</div>
+            <div class="chip">Python</div>
+          </div>
+          <p>أداة تحليل ملفات CSV/Excel بتقرير شامل وتصدير.</p>
+          <div class="work-tags">
+            <span>Reports</span><span>Export</span><span>Fast</span>
+          </div>
+        </div>
+
+        <div class="work-card reveal delay-1">
+          <div class="work-top">
+            <div class="work-title">FRONT END</div>
+            <div class="chip">WEB</div>
+          </div>
+          <p>عمل موقع فرونت اند باشكال احترافيه وممتازه</p>
+          <div class="work-tags">
+            <span>Organized</span><span>Professional</span><span>FAST</span>
+          </div>
+        </div>
+
+        <div class="work-card reveal delay-2">
+          <div class="work-top">
+            <div class="work-title">Business Desktop</div>
+            <div class="chip">UI/UX</div>
+          </div>
+          <p>تطبيق إدارة بيانات عملاء + بحث + تصدير + صلاحيات.</p>
+          <div class="work-tags">
+            <span>CRM</span><span>Search</span><span>Secure</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section id="process" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>طريقة الشغل</h2>
+        <p>احنا بنبيع “نظام” مش كود… فده مهم جدًا.</p>
+      </div>
+
+      <div class="steps">
+        <div class="step reveal">
+          <div class="step-n">01</div>
+          <h3>فهم الهدف</h3>
+          <p>بنحدد النتيجة اللي هتتحقق: توفير وقت، زيادة مبيعات، تقليل أخطاء.</p>
+        </div>
+        <div class="step reveal delay-1">
+          <div class="step-n">02</div>
+          <h3>تصميم + Prototype</h3>
+          <p>تصميم واجهة احترافية ومراجعة قبل التنفيذ.</p>
+        </div>
+        <div class="step reveal delay-2">
+          <div class="step-n">03</div>
+          <h3>تنفيذ وتسليم</h3>
+          <p>تنفيذ نظيف + اختبار + تسليم مع شرح بسيط.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="section alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>باقات واضحة (تسهل قرار الشراء)</h2>
+        <p>تقدر تغير الأسعار/المحتوى بعدين بسهولة.</p>
+      </div>
+
+      <div class="pricing">
+        <article class="price-card reveal">
+          <div class="price-top">
+            <h3>Starter</h3>
+            <div class="price">حسب المشروع</div>
+            <p>مناسب لبداية سريعة.</p>
+          </div>
+          <ul>
+            <li>تسليم سريع</li>
+            <li>واجهة احترافية</li>
+            <li>دعم بعد التسليم</li>
+          </ul>
+          <a class="btn ghost w-full" href="#contact">اطلب التفاصيل</a>
+        </article>
+
+        <article class="price-card featured reveal delay-1">
+          <div class="ribbon">الأكثر طلبًا</div>
+          <div class="price-top">
+            <h3>Business</h3>
+            <div class="price">حسب المشروع</div>
+            <p>أفضل قيمة لعملاء الشركات.</p>
+          </div>
+          <ul>
+            <li>أتمتة + تقارير</li>
+            <li>تحسين أداء</li>
+            <li>UI/UX أقوى</li>
+          </ul>
+          <a class="btn primary w-full" href="#contact">ابدأ الآن</a>
+        </article>
+
+        <article class="price-card reveal delay-2">
+          <div class="price-top">
+            <h3>Enterprise</h3>
+            <div class="price">حسب المشروع</div>
+            <p>حلول كاملة ومخصصة.</p>
+          </div>
+          <ul>
+            <li>تخصيص كامل</li>
+            <li>مراحل وتسليمات</li>
+            <li>استمرارية تطوير</li>
+          </ul>
+          <a class="btn ghost w-full" href="#contact">تواصل</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h2>جاهز نخلي مشروعك يطلع “تقيل”؟</h2>
+          <p>ابعت تفاصيل بسيطة (نوع المشروع + المطلوب + وقت التسليم) وهنرد عليك بخطة واضحة.</p>
+
+          <div class="contact-box">
+            <div class="mini">تواصل سريع</div>
+            <div class="contact-row">
+              <span>📩</span>
+              <a href="mailto:khalidwalidabdalnaseer22@gmail.com">khalidwalidabdalnaseer22@gmail.com</a>
+            </div>
+            <div class="contact-row">
+              <span>💬</span>
+              <a href="https://wa.me/201201369179" target="_blank" rel="noreferrer">WhatsApp</a>
+            </div>
+          </div>
+        </div>
+
+        <form class="form reveal delay-1" id="form">
+          <div class="form-head">
+            <h3>اطلب عرض سعر</h3>
+            <p>رد سريع + اقتراحات مجانية لتطوير الفكرة.</p>
+          </div>
+
+          <label>
+            <span>الاسم</span>
+            <input name="name" type="text" placeholder="اكتب اسمك" required />
+          </label>
+
+          <label>
+            <span>الإيميل</span>
+            <input name="email" type="email" placeholder="example@gmail.com" required />
+          </label>
+
+          <label>
+            <span>تفاصيل المشروع</span>
+            <textarea name="message" rows="5" placeholder="عايز إيه بالظبط؟" required></textarea>
+          </label>
+
+          <button class="btn primary" type="submit">
+            إرسال
+            <span class="arrow">↗</span>
+          </button>
+
+          <div class="status" id="status"></div>
+          <p class="note">* معطل حالياً</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> MINCOD. All rights reserved.</div>
+      <div class="foot-links">
+        <a href="#services">الخدمات</a>
+        <a href="#pricing">الباقات</a>
+        <a href="#contact">تواصل</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
